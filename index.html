@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src = "p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js"></script>
+    
+    <script>
+    
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyDBDROrDybCKXt2WZGgCWjdUG7v2ulxDNA",
+        authDomain: "my-first-multiplayer-gam-4ba72.firebaseapp.com",
+        databaseURL: "https://my-first-multiplayer-gam-4ba72-default-rtdb.firebaseio.com",
+        projectId: "my-first-multiplayer-gam-4ba72",
+        storageBucket: "my-first-multiplayer-gam-4ba72.appspot.com",
+        messagingSenderId: "953058789848",
+        appId: "1:953058789848:web:8999621af3d80746e94aad"
+      };
+    
+      // Initialize Firebase
+      if(!firebase.apps.length){
+        firebase.initializeApp(firebaseConfig)
+      }
+    </script>
+
+    <link rel = "stylesheet" type = "text/css" href = "style.css" />
+    <meta charset = "utf-8" />
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
